@@ -14,10 +14,13 @@ else if (color1.includes("red" || "yellow") && color2.includes("yellow" || "red"
 }
 else if (color1.includes("blue" || "yellow") && color2.includes("yellow" || "blue")){
     console.log("green")
-}}
+}else (
+    console.log("That was not a valid selection.")
+)
+}
 // deconstruct
 if(choice === "d"){
-let color = (prompt(" Select the color to be deconstructed: "))
+let color = (prompt(" Select the color to be deconstructed (purple, orange, green): "))
 
 if (color.includes("purple" || "Purple")){
     console.log("red + blue")
@@ -27,7 +30,10 @@ else if (color.includes("orange" || "Orange")){
 }
 else if (color.includes("green" || "Green")){
     console.log("yellow + blue")
-}}
+}else(
+    console.log("That was not a valid selection.")
+)
+}
 
 
 
